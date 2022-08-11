@@ -11,6 +11,14 @@
 		AF0C1FDD28A35DD900270584 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = AF0C1FDC28A35DD900270584 /* FirebaseDatabase */; };
 		AF0C1FDF28A35DD900270584 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AF0C1FDE28A35DD900270584 /* FirebaseDatabaseSwift */; };
 		AF0C1FE128A35DD900270584 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AF0C1FE028A35DD900270584 /* FirebaseFirestore */; };
+		AF0C1FE528A4394400270584 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FE428A4394400270584 /* TabBar.swift */; };
+		AF0C1FE728A4396800270584 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FE628A4396800270584 /* HomeView.swift */; };
+		AF0C1FE928A4398600270584 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FE828A4398600270584 /* FavoritesView.swift */; };
+		AF0C1FEB28A439A500270584 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FEA28A439A500270584 /* NewRecipeView.swift */; };
+		AF0C1FED28A4420500270584 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FEC28A4420500270584 /* SettingsView.swift */; };
+		AF0C1FF328A4501600270584 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FF228A4501600270584 /* RecipeModel.swift */; };
+		AF0C1FF628A46ADC00270584 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FF528A46ADC00270584 /* RecipeCard.swift */; };
+		AF0C1FFA28A47D2B00270584 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FF928A47D2B00270584 /* RecipeList.swift */; };
 		AF46CE2228A1B73200E6C006 /* iOS_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46CE2128A1B73200E6C006 /* iOS_Final_ProjectApp.swift */; };
 		AF46CE2428A1B73200E6C006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46CE2328A1B73200E6C006 /* ContentView.swift */; };
 		AF46CE2628A1B73400E6C006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF46CE2528A1B73400E6C006 /* Assets.xcassets */; };
@@ -21,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0C1FE428A4394400270584 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AF0C1FE628A4396800270584 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF0C1FE828A4398600270584 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		AF0C1FEA28A439A500270584 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		AF0C1FEC28A4420500270584 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AF0C1FF228A4501600270584 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		AF0C1FF528A46ADC00270584 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		AF0C1FF928A47D2B00270584 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		AF46CE1E28A1B73200E6C006 /* iOS_Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF46CE2128A1B73200E6C006 /* iOS_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		AF46CE2328A1B73200E6C006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF0C1FF128A44FED00270584 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C1FF228A4501600270584 /* RecipeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF0C1FF428A46AB000270584 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C1FF528A46ADC00270584 /* RecipeCard.swift */,
+				AF0C1FF928A47D2B00270584 /* RecipeList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		AF46CE1528A1B73200E6C006 = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +98,15 @@
 		AF46CE2028A1B73200E6C006 /* iOS_Final_Project */ = {
 			isa = PBXGroup;
 			children = (
+				AF0C1FF428A46AB000270584 /* Components */,
+				AF0C1FF128A44FED00270584 /* Models */,
 				AF46CE2128A1B73200E6C006 /* iOS_Final_ProjectApp.swift */,
 				AF46CE2328A1B73200E6C006 /* ContentView.swift */,
+				AF0C1FE428A4394400270584 /* TabBar.swift */,
+				AF0C1FEC28A4420500270584 /* SettingsView.swift */,
+				AF0C1FE628A4396800270584 /* HomeView.swift */,
+				AF0C1FE828A4398600270584 /* FavoritesView.swift */,
+				AF0C1FEA28A439A500270584 /* NewRecipeView.swift */,
 				AF85D19A28A2E42300CA595E /* GoogleService-Info.plist */,
 				AF46CE2528A1B73400E6C006 /* Assets.xcassets */,
 				AF46CE2728A1B73400E6C006 /* Preview Content */,
@@ -165,6 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0C1FED28A4420500270584 /* SettingsView.swift in Sources */,
+				AF0C1FE928A4398600270584 /* FavoritesView.swift in Sources */,
+				AF0C1FF628A46ADC00270584 /* RecipeCard.swift in Sources */,
+				AF0C1FE528A4394400270584 /* TabBar.swift in Sources */,
+				AF0C1FE728A4396800270584 /* HomeView.swift in Sources */,
+				AF0C1FEB28A439A500270584 /* NewRecipeView.swift in Sources */,
+				AF0C1FF328A4501600270584 /* RecipeModel.swift in Sources */,
+				AF0C1FFA28A47D2B00270584 /* RecipeList.swift in Sources */,
 				AF46CE2428A1B73200E6C006 /* ContentView.swift in Sources */,
 				AF46CE2228A1B73200E6C006 /* iOS_Final_ProjectApp.swift in Sources */,
 			);

@@ -68,6 +68,7 @@ struct ContentView: View {
                         Text("SignOut")
                             .foregroundColor(.black)
                     })
+                    TabBar()
                 }
             }
             else{
