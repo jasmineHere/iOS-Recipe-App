@@ -8,13 +8,15 @@
 import Foundation
 import SwiftUI
 
-enum Category: String {
+enum Category: String, CaseIterable, Identifiable {
+    var id: String { self.rawValue}
+    
     case breakfast = "Breakfast"
     case soup = "Soup"
     case salad = "Salad"
     case appetizer = "Appetizer"
-    case mains = "Mains"
-    case sides = "Sides"
+    case mains = "Main"
+    case sides = "Side"
     case dessert = "Dessert"
     case snack = "Snack"
     case drink = "Drink"

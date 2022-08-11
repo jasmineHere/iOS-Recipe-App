@@ -11,12 +11,14 @@ import Firebase
 @main
 struct iOS_Final_ProjectApp: App {
     
+    //@StateObject var recipesViewModel = RecipesViewModel()
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
             let viewModel = AppViewModel()
             ContentView()
+                //.environmentObject(recipesViewModel)
                 .environmentObject(viewModel)
         }
     }

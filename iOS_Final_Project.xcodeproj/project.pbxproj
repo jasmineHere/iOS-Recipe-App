@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF04FD5C28A49C0E007BD7E6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04FD5B28A49C0E007BD7E6 /* CategoryView.swift */; };
+		AF04FD5E28A4A9D3007BD7E6 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04FD5D28A4A9D3007BD7E6 /* AddRecipeView.swift */; };
 		AF0C1FDB28A35DD900270584 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF0C1FDA28A35DD900270584 /* FirebaseAuth */; };
 		AF0C1FDD28A35DD900270584 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = AF0C1FDC28A35DD900270584 /* FirebaseDatabase */; };
 		AF0C1FDF28A35DD900270584 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AF0C1FDE28A35DD900270584 /* FirebaseDatabaseSwift */; };
@@ -19,6 +21,8 @@
 		AF0C1FF328A4501600270584 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FF228A4501600270584 /* RecipeModel.swift */; };
 		AF0C1FF628A46ADC00270584 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FF528A46ADC00270584 /* RecipeCard.swift */; };
 		AF0C1FFA28A47D2B00270584 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FF928A47D2B00270584 /* RecipeList.swift */; };
+		AF0C1FFD28A481F500270584 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FFC28A481F500270584 /* RecipeView.swift */; };
+		AF0C1FFF28A4937A00270584 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C1FFE28A4937A00270584 /* CategoriesView.swift */; };
 		AF46CE2228A1B73200E6C006 /* iOS_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46CE2128A1B73200E6C006 /* iOS_Final_ProjectApp.swift */; };
 		AF46CE2428A1B73200E6C006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46CE2328A1B73200E6C006 /* ContentView.swift */; };
 		AF46CE2628A1B73400E6C006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF46CE2528A1B73400E6C006 /* Assets.xcassets */; };
@@ -26,9 +30,12 @@
 		AF85D19B28A2E42300CA595E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF85D19A28A2E42300CA595E /* GoogleService-Info.plist */; };
 		AF85D19E28A2E54400CA595E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF85D19D28A2E54400CA595E /* FirebaseAuth */; };
 		AF85D1A028A2E54400CA595E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AF85D19F28A2E54400CA595E /* FirebaseFirestore */; };
+		AFBA74A828A4B98500ACC35F /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA74A728A4B98500ACC35F /* RecipesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF04FD5B28A49C0E007BD7E6 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		AF04FD5D28A4A9D3007BD7E6 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 		AF0C1FE428A4394400270584 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		AF0C1FE628A4396800270584 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AF0C1FE828A4398600270584 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
@@ -37,12 +44,15 @@
 		AF0C1FF228A4501600270584 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		AF0C1FF528A46ADC00270584 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		AF0C1FF928A47D2B00270584 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		AF0C1FFC28A481F500270584 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		AF0C1FFE28A4937A00270584 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		AF46CE1E28A1B73200E6C006 /* iOS_Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF46CE2128A1B73200E6C006 /* iOS_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		AF46CE2328A1B73200E6C006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF46CE2528A1B73400E6C006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF46CE2828A1B73400E6C006 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF85D19A28A2E42300CA595E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFBA74A728A4B98500ACC35F /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,16 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		AF0C1FFB28A481D200270584 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C1FFC28A481F500270584 /* RecipeView.swift */,
+				AF04FD5B28A49C0E007BD7E6 /* CategoryView.swift */,
+				AF04FD5D28A4A9D3007BD7E6 /* AddRecipeView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		AF46CE1528A1B73200E6C006 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +118,8 @@
 		AF46CE2028A1B73200E6C006 /* iOS_Final_Project */ = {
 			isa = PBXGroup;
 			children = (
+				AFBA74A628A4B94B00ACC35F /* ViewModels */,
+				AF0C1FFB28A481D200270584 /* Detail */,
 				AF0C1FF428A46AB000270584 /* Components */,
 				AF0C1FF128A44FED00270584 /* Models */,
 				AF46CE2128A1B73200E6C006 /* iOS_Final_ProjectApp.swift */,
@@ -105,6 +127,7 @@
 				AF0C1FE428A4394400270584 /* TabBar.swift */,
 				AF0C1FEC28A4420500270584 /* SettingsView.swift */,
 				AF0C1FE628A4396800270584 /* HomeView.swift */,
+				AF0C1FFE28A4937A00270584 /* CategoriesView.swift */,
 				AF0C1FE828A4398600270584 /* FavoritesView.swift */,
 				AF0C1FEA28A439A500270584 /* NewRecipeView.swift */,
 				AF85D19A28A2E42300CA595E /* GoogleService-Info.plist */,
@@ -120,6 +143,14 @@
 				AF46CE2828A1B73400E6C006 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFBA74A628A4B94B00ACC35F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA74A728A4B98500ACC35F /* RecipesViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,14 +236,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF04FD5E28A4A9D3007BD7E6 /* AddRecipeView.swift in Sources */,
 				AF0C1FED28A4420500270584 /* SettingsView.swift in Sources */,
 				AF0C1FE928A4398600270584 /* FavoritesView.swift in Sources */,
 				AF0C1FF628A46ADC00270584 /* RecipeCard.swift in Sources */,
 				AF0C1FE528A4394400270584 /* TabBar.swift in Sources */,
+				AF0C1FFD28A481F500270584 /* RecipeView.swift in Sources */,
+				AF04FD5C28A49C0E007BD7E6 /* CategoryView.swift in Sources */,
 				AF0C1FE728A4396800270584 /* HomeView.swift in Sources */,
 				AF0C1FEB28A439A500270584 /* NewRecipeView.swift in Sources */,
 				AF0C1FF328A4501600270584 /* RecipeModel.swift in Sources */,
+				AF0C1FFF28A4937A00270584 /* CategoriesView.swift in Sources */,
 				AF0C1FFA28A47D2B00270584 /* RecipeList.swift in Sources */,
+				AFBA74A828A4B98500ACC35F /* RecipesViewModel.swift in Sources */,
 				AF46CE2428A1B73200E6C006 /* ContentView.swift in Sources */,
 				AF46CE2228A1B73200E6C006 /* iOS_Final_ProjectApp.swift in Sources */,
 			);
